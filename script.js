@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const leafLeft = document.getElementById('leafLeft');
     const leafRight = document.getElementById('leafRight');
     const endText = document.getElementById('endText');
-    const lovePopup = document.getElementById('lovePopup');
     const fallingPetalsEl = document.getElementById('fallingPetals');
     const scene = document.querySelector('.scene');
 
@@ -203,14 +202,6 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {
             endText.classList.add('visible');
         }, 4600);
-
-        setTimeout(() => {
-            lovePopup.classList.add('show');
-        }, 6600);
-
-        setTimeout(() => {
-            lovePopup.classList.remove('show');
-        }, 8600);
     }
 
     function delay(ms) {
