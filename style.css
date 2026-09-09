@@ -486,32 +486,6 @@ body {
     opacity: 1;
 }
 
-.rose-head.final-bloom {
-    animation: roseFinalPulse 3.2s ease-in-out infinite alternate;
-}
-
-.rose-wrapper.final-bloom {
-    filter: drop-shadow(0 0 18px rgba(255, 80, 120, 0.25));
-}
-
-@keyframes roseFinalPulse {
-    0% {
-        transform: translateX(-50%) scale(0.98);
-        filter: brightness(1);
-    }
-
-    50% {
-        transform: translateX(-50%) scale(1.02);
-        filter: brightness(1.08);
-    }
-
-    100% {
-        transform: translateX(-50%) scale(0.99);
-        filter: brightness(1.04);
-    }
-}
-
-
 .petal {
     position: absolute;
     bottom: 0;

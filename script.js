@@ -135,11 +135,6 @@ document.addEventListener('DOMContentLoaded', () => {
         calyx.classList.add('visible');
         ambientLight.classList.add('visible');
         roseHead.classList.add('blooming');
-
-        setTimeout(() => {
-            roseHead.classList.add('final-bloom');
-            roseWrapper.classList.add('final-bloom');
-        }, 2200);
     }
 
     function spawnFallingPetal() {
